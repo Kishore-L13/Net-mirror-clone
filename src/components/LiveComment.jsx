@@ -4,91 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { addMessage } from '../Utils/commentSlice'
 import { generateRandomName } from '../Utils/helper'
 import { makeRandomMessage } from '../Utils/helper'
-const data = [{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},{
-    name:"abc",
-    text: "dfc"
-},]
+
 const LiveComment = () => {
 const dispatch = useDispatch()
 const [livemessage,setLivemessage] =useState("")
@@ -137,7 +53,7 @@ const chatMessage = useSelector(store=>store.chat.messages)
         setLivemessage(e.target.value)
     }} 
     />
-    <button className='px-4 mx-2 font-bold
+    <button type='submit' className='px-4 mx-2 font-bold
      bg-blue-400 rounded-md cursor-pointer' >send</button>
     </form>
 </> 
