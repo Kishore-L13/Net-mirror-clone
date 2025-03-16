@@ -218,3 +218,6 @@ export const findPrime = (num) => {
   }
   return primes[num - 1];
 };
+export const square = (num) => {
+  return num*num
+}

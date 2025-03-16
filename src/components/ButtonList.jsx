@@ -8,7 +8,11 @@ const List = ["All",
   "Soccer",
   "Cricket",
   "Cooking",
-  "Valentines"]
+  "Valentines",
+  "Live",
+  "Soccer",
+  "Cricket",
+  "Cooking",]
 const ButtonList = () => {
   return (
     <div className="flex space-x-2 p-2">

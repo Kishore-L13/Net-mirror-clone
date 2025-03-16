@@ -14,6 +14,7 @@ if (!isMenuOpen) return null;
         <div className=' border-b-gray-400'>
             <ul>
                <Link to="/"> <li>Home</li></Link>
+               <Link to="demo"> <li>demo</li></Link>
                 <li>Shorts</li>
                 <li>Subscriptions</li>
             </ul>
